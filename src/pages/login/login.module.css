@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+        padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 8px;
+    min-width: 480px;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.header > h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.mid > h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.mid > h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.forgotPassword {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forgotPassword > span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.75;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.footer > span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.75;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    font-size: 12px;
+    color: #FF0000;
+    font-style: italic;
+}

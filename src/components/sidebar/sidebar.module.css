@@ -1,0 +1,85 @@
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #BAC8D5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #BAC8D5;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 10px;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo > h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navItems {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.navItem:hover {
+    background-color: rgba(18, 31, 67, 0.04);
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 13px;
+    color: #5F748D;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.logout > span {
+  font-size: 13px;
+}

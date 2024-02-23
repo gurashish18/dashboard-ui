@@ -1,0 +1,31 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    z-index: 1000;
+    margin-left: 320px;
+    width: calc(100% - 320px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    height: 60px;
+    backdrop-filter: blur(8px);
+}
+.navItems {
+    display: flex;
+    gap: 20px;
+}
+
+.user {
+    padding: 4px;
+    border: 1px solid rgb(211, 230, 243);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user > span {
+    font-size: 14px;
+}
